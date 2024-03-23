@@ -1,0 +1,26 @@
+:root {
+    --main-heading-color: #212121;
+    --main-text-color: #757575;
+    --main-background-color: #2F303A;
+    --main-current-color: #2196F3; 
+    --hover-color: #2196F3;
+    --accent-color: #FFFFFF;
+    --bg-btn-color: #F5F4FA;
+    --footer-contacts-color: rgba(255, 255, 255, 0.6);
+    --logo-color: #000000;
+}
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+}
