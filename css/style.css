@@ -47,6 +47,16 @@ body {
     padding-top: 94px;
 }
 
+/* .flex-test {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} */
+
+/* .flex-test > li:not(:last-child) {
+    margin-right: 30px;
+} */
+
 .list-direction {
     display: flex;
     gap: 30px;
@@ -144,8 +154,6 @@ body {
 }
 
 .hero-btn {
-    /* display: flex;
-    align-items: center; */
     min-width: 216px;
     padding: 10px;
     border: 0;
@@ -306,6 +314,12 @@ body {
 .portfolio-btn:hover {
     color: var(--accent-color);
     background-color: var(--hover-color);
+}
+
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 .project-header {
